@@ -40,11 +40,11 @@ export default function DashboardPage() {
   };
 
   const handleReportsClick = () => {
-    router.push("/reports");
+    router.push("/dashboard/report_analysis");
   };
 
   const handlePharmacyClick = () => {
-    router.push("/pharmacy");
+    router.push("/dashboard/pharmacy");
   };
 
   return (
